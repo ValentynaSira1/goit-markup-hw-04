@@ -21,8 +21,17 @@
                 </ul>
             </nav>
                 <ul class="auth-nav items-nav">
-                    <li class="items"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="items"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="items">
+                        <svg  class = "icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope"></use>                          
+                        </svg>
+                        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="items">
+                        <svg  class = "icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>                          </use>
+                        </svg>
+                        <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
                 </ul>
         </div>
     </header>
@@ -30,102 +39,157 @@
         <section class="portfolio-nav">
             <div class="container">
                 <h1 class="visually-hidden">Наші проекти</h1>
-            <ul class="about">
-                <li class="about-nav"><button class="list-button" type="button">Усі</button></li>
-                <li class="about-nav"><button class="list-button" type="button">Веб-сайти</button></li>
-                <li class="about-nav"><button class="list-button" type="button">Додатки</button></li>
-                <li class="about-nav"><button class="list-button" type="button">Дизайн</button></li>
-                <li class="about-nav"><button class="list-button" type="button">Маркетинг</button></li>
-            </ul>
+                <ul class="about">
+                    <li class="about-nav"><button class="list-button" type="button">Усі</button></li>
+                    <li class="about-nav"><button class="list-button" type="button">Веб-сайти</button></li>
+                    <li class="about-nav"><button class="list-button" type="button">Додатки</button></li>
+                    <li class="about-nav"><button class="list-button" type="button">Дизайн</button></li>
+                    <li class="about-nav"><button class="list-button" type="button">Маркетинг</button></li>
+                </ul>
             </div>
             <div class="container">
                 <ul class="flex-container">
                     <li class="flex-element">
-                        <img src="./images/tehnokryak.jpg" alt="Команда веб-сайту" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Технокряк</h2>
-                            <p class="subtitle">Веб-сайт</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/tehnokryak.jpg" alt="Команда веб-сайту" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Технокряк</h2>
+                                <p class="subtitle">Веб-сайт</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/orlean.jpg" alt="Два чоловіка грають у баскетбол" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Постер New Orlean vs Golden Star</h2>
-                            <p class="subtitle">Дизайн</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/orlean.jpg" alt="Два чоловіка грають у баскетбол" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Постер New Orlean vs Golden Star</h2>
+                                <p class="subtitle">Дизайн</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/seafood.jpg" alt="Логотип ресторану Seafood" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Ресторан Seafood</h2>
-                            <p class="subtitle">Додаток</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/seafood.jpg" alt="Логотип ресторану Seafood" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Ресторан Seafood</h2>
+                                <p class="subtitle">Додаток</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/prime.jpg" alt="Навушники" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Проєкт Prime</h2>
-                            <p class="subtitle">Маркетинг</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/prime.jpg" alt="Навушники" width="370">
+                             <div class="subtitle-element">
+                                <h2 class="heading">Проєкт Prime</h2>
+                                <p class="subtitle">Маркетинг</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/Boxes.jpg" alt="Дві коробки" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Проєкт Boxes</h2>
-                            <p class="subtitle">Додаток</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/Boxes.jpg" alt="Дві коробки" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Проєкт Boxes</h2>
+                                <p class="subtitle">Додаток</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/inspiration.jpg" alt="Монітор" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Inspiration has no Borders</h2>
-                            <p class="subtitle">Веб-сайт</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/inspiration.jpg" alt="Монітор" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Inspiration has no Borders</h2>
+                                <p class="subtitle">Веб-сайт</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/limited.jpg" alt="Розкритий журнал" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Видання Limited Edition</h2>
-                            <p class="subtitle">Дизайн</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/limited.jpg" alt="Розкритий журнал" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Видання Limited Edition</h2>
+                                <p class="subtitle">Дизайн</p>
+                             </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/lab.jpg" alt="Зображення ярлика" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Проєкт LAB</h2>
-                            <p class="subtitle">Маркетинг</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/lab.jpg" alt="Зображення ярлика" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Проєкт LAB</h2>
+                                <p class="subtitle">Маркетинг</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex-element">
-                        <img src="./images/business.jpg" alt="Робота за ноутбуком" width="370">
-                        <div class="subtitle-element">
-                            <h2 class="heading">Growing Business</h2>
-                            <p class="subtitle">Додаток</p>
-                        </div>
+                        <a class="box">
+                            <img src="./images/business.jpg" alt="Робота за ноутбуком" width="370">
+                            <div class="subtitle-element">
+                                <h2 class="heading">Growing Business</h2>
+                                <p class="subtitle">Додаток</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
-            
         </section>
     </main>
     <footer class="bottom"> 
         <div class="container"> 
-            <a class="logo-type one" href="/"><span class="logo">Web</span>Studio</a> 
-            <address> 
-                <ul> 
-                    <li class="basement"> 
-                        <a class="list" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" 
-                        rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a> 
-                    </li> 
-                    <li class="basement"> 
-                        <a class="list item" href="mailto:info@devstudio.com">info@devstudio.com</a> 
-                    </li> 
-                    <li class="basement"> 
-                        <a class="list item" href="tel:+380961111111">+38 096 111 11 11</a> 
-                    </li> 
-                </ul> 
-            </address> 
+            <div class="footer">
+                <div>
+                    <a class="logo-type one" href="/"><span class="logo">Web</span>Studio</a> 
+                    <address> 
+                        <ul> 
+                            <li class="basement"> 
+                                <a class="list" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" 
+                                rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a> 
+                            </li> 
+                            <li class="basement"> 
+                                <a class="list item" href="mailto:info@devstudio.com">info@devstudio.com</a> 
+                            </li> 
+                            <li class="basement"> 
+                                <a class="list item" href="tel:+380961111111">+38 096 111 11 11</a> 
+                            </li> 
+                        </ul> 
+                    </address> 
+                </div>
+                <div>
+                    <p class="foot-text">приєднуйтесь</p>
+                    <ul class="social">
+                        <li>
+                            <a class="foot-social" href="#">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="foot-social" href="#">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                </svg>
+                            </a>    
+                        </li>
+                        <li>
+                            <a class="foot-social" href="#">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="foot-social" href="#">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
         </div> 
-    </footer>
+    </footer> 
 </body>
 </html>
