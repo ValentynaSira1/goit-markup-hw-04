@@ -59,10 +59,6 @@ padding: 0 15px;
 
 .items{
     margin-right: 50px;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    fill: var(--color-secondary);
 }
 
 .icon{
@@ -121,6 +117,11 @@ padding: 0 15px;
 
     padding-top: 32px;
     padding-bottom: 32px;
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    fill: var(--color-secondary);
 }
 
 .site-nav .link:hover, 
@@ -168,7 +169,7 @@ padding: 0 15px;
     url('../images/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
     height: 600px;
     max-width: 1600px;
@@ -223,7 +224,7 @@ padding: 0 15px;
     align-items: center;
     justify-content: center;
     background-color: #f5f4fa;
-    margin-bottom: 56px;
+    margin-bottom: 30px;
     border-radius: 4px;
 }
 
@@ -299,13 +300,18 @@ padding: 0 15px;
 .img-item{
     text-align: center;
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--color-accent);
 }
 
 .img-item img{
     max-width: 100%;
     height: auto;
+    display: block;
+}
+
+.team{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .name-desc{
@@ -347,17 +353,23 @@ padding: 0 15px;
     background-color: var(--color-accent);
 }
 
-.social-nav:hover{
+.social-nav:hover,
+.social-nav:focus{
     fill: var(--color-accent);
     background-color: var(--color-brend);
 }
 
 /* постійні клієнти */
 
+.client-item{
+    width:170px;
+    height: 92px;
+}
+
 .clients{
     display: flex;
-    width: 170px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     align-items: center;
@@ -365,16 +377,17 @@ padding: 0 15px;
     fill: #afb1b8;
 }
 
-.clients:hover{
-    background-color: var(--background-primery);
+.clients:hover,
+.clients:focus{
     fill: var(--color-brend);
     border: 1px solid #2196f3;
 }
+
 .clients-list{
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
+
 
 /* footer */
 
@@ -441,7 +454,8 @@ color: var(--color-brend);
     gap: 10px; 
 }
 
-.foot-social:hover{
+.foot-social:hover,
+.foot-social:focus{
     fill: var(--color-accent);
     background-color: var(--color-brend);
 }
@@ -515,11 +529,15 @@ color: var(--color-brend);
     margin-right: 0;
 }
 
+.flex-element:nth-last-child(-n + 3){ 
+    margin-bottom: 0; 
+}
+
 .subtitle-element{
     padding: 20px 24px;
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
 }
 
 .box{
